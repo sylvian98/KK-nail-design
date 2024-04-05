@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Email Newsletter Prototype</title>
+    <link rel="stylesheet" type="text/css" href="EmailStyles.css">
+    <script src="Gradient.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+<body>
+     
+        
+    <section class="container">
+        <div class="desktop-mobile border">
+            <div class="dot">
+            <span class="dots"></span>
+            <span class="dots"></span>
+            <span class="dots"></span>
+            </div>
+            <div class="gradient-bg"> 
+                <canvas id="gradient-canvas" data-transition-in></canvas>
+                        <div class="canvas-content">
+                            <img class="logo" src="kknailsLogo.png">
+                            <div class="title">
+                                <h1> Thank you for booking with kk nails  </h1>
+                                <div class="button">
+                                    <a class="booking" href=#> View Booking </a>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="section-one">
+                                <h2> We want to extend our heartfelt thanks for choosing KK Nails for your beauty needs.</h2>
+                                <p class="text1">  Your recent booking means the world to us, and we can't wait to pamper you with our exceptional nail care services. </p>
+                            
+                            </div>
+                            
+                            <div class="section-two">
+                                <img class="model" src="image%2011.png"> 
+                                <p class="text2"> At KK Nails, we are dedicated to providing you with an unforgettable experience that leaves you feeling refreshed, rejuvenated, and looking your absolute best. Whether you're indulging in a classic manicure, a relaxing pedicure, or treating yourself to a stunning nail art design, our skilled technicians are here to exceed your expectations.</p>
+                            
+                            </div>
+                            
+                            <div class="section-three">
+                            
+                                <h2 class="big-txt"> 20% <span class="off"> off</span></h2>
+                                
+                                <h2 class="subheading"> As a token of our appreciation, we're delighted to offer you a special discount on your next visit. </h2>
+                                <p class="small-txt"> Simply present this email at checkout to redeem your exclusive offer.</p>
+                            </div>
+                            
+                            <div class="social-media">
+                                <p class="socials"> Follow us on social media to stay updated on the latest trends, promotions, and beauty tips from KK Nails.</p>
+                                <div class="icons"> 
+                                    <img class="social-icons" src="image%205.png">
+                                    <p class="socal-txt"> Instagram: @kkNails </p>
+                                    <img class="social-icons" src="image%207.png">
+                                     <p class="socal-txt"> TikTok: @kkNails </p>
+                                    <img class="social-icons" src="image%208.png">
+                                     <p class="socal-txt"> Twitter: @kkNails </p>
+                                
+                                </div>
+                               
+                                
+                            
+                            </div>
+                
+                
+                
+                
+                
+                </div>
+                    <script>
+                        // Create your instance
+                        const gradient = new Gradient()
+
+                        // Call `initGradient` with the selector to your canvas
+                        gradient.initGradient('#gradient-canvas')
+        
+                           </script>  
+            </div>
+        </div>
+    </section>
+</body>
+</html>
